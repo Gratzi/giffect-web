@@ -8,12 +8,12 @@ import Button from 'src/views/components/button';
 import './sign-in-page.css';
 
 
-const SignInPage = ({signInWithGithub, signInWithGoogle, signInWithTwitter}) => {
+const SignInPage = ({signInWithFacebook, signInWithGoogle, signInWithTwitter}) => {
   return (
     <div className="g-row sign-in">
       <div className="g-col">
         <h1 className="sign-in__heading">Sign in</h1>
-        <Button className="sign-in__button" onClick={signInWithGithub}>GitHub</Button>
+        <Button className="sign-in__button" onClick={signInWithFacebook}>Facebook</Button>
         <Button className="sign-in__button" onClick={signInWithGoogle}>Google</Button>
         <Button className="sign-in__button" onClick={signInWithTwitter}>Twitter</Button>
       </div>
@@ -22,7 +22,7 @@ const SignInPage = ({signInWithGithub, signInWithGoogle, signInWithTwitter}) => 
 };
 
 SignInPage.propTypes = {
-  signInWithGithub: PropTypes.func.isRequired,
+  signInWithFacebook: PropTypes.func.isRequired,
   signInWithGoogle: PropTypes.func.isRequired,
   signInWithTwitter: PropTypes.func.isRequired
 };
@@ -33,7 +33,7 @@ SignInPage.propTypes = {
 //-------------------------------------
 
 const mapDispatchToProps = {
-  signInWithGithub: authActions.signInWithGithub,
+  signInWithFacebook: authActions.signInWithFacebook,
   signInWithGoogle: authActions.signInWithGoogle,
   signInWithTwitter: authActions.signInWithTwitter
 };

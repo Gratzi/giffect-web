@@ -1,6 +1,6 @@
 export const firebaseConfig = {
-  apiKey: 'AIzaSyCUll5AyYba1XL8NDYKZ51RGt90KofQo6c',
-  authDomain: 'todo-redux-saga.firebaseapp.com',
-  databaseURL: 'https://todo-redux-saga.firebaseio.com',
-  storageBucket: 'todo-redux-saga.appspot.com'
+  apiKey: 'AIzaSyBM00VX2lj91Uf5jLoAyJX41n7ZCsfQoJQ',
+  authDomain: 'giffect-1337.firebaseapp.com',
+  databaseURL: 'https://giffect-1337.firebaseio.com',
+  storageBucket: 'giffect-1337.appspot.com'
 };

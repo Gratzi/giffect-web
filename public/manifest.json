@@ -1,6 +1,6 @@
 {
-  "short_name": "Todo Redux Saga",
-  "name": "Todo app with React, Redux, Redux-Saga, and Firebase",
+  "short_name": "Giffect",
+  "name": "The facial reactions game.",
   "icons": [
     {
       "src": "favicon.ico",

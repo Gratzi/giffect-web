@@ -23,7 +23,7 @@ Try the demo at <a href="https://todo-redux-saga.firebaseapp.com" target="_blank
 ## Quick Start
 
 ```shell
-$ git clone https://github.com/r-park/todo-redux-saga.git
+$ git clone git@github.com:Gratzi/giffect-web.git
 $ cd todo-redux-saga
 $ npm install
 $ npm start

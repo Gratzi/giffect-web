@@ -26,8 +26,8 @@ export const authActions = {
     payload: {authUser}
   }),
 
-  signInWithGithub: () => authActions.signIn(
-    new firebase.auth.GithubAuthProvider()
+  signInWithFacebook: () => authActions.signIn(
+    new firebase.auth.FacebookAuthProvider()
   ),
 
   signInWithGoogle: () => authActions.signIn(
